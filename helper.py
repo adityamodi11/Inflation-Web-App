@@ -8,12 +8,11 @@ import plotly.express as px
 import plotly.graph_objects as go
 import plotly.figure_factory as ff
 import plotly.io as pio
-import zipfile
-
-zf = zipfile. ZipFile('ezyzip.zip')
 
 
-monthly_price_df = pd. read_csv(zf. open('monthly_price.csv'))
+
+
+monthly_price_df = pd.read_csv('monthly_price.csv')
 
 # state = monthly_price_df['state'].unique().to_list()
 # commodity = monthly_price_df['commodity'].unique().to_list()
