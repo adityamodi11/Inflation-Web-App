@@ -17,7 +17,7 @@ import plotly.io as pio
 #commodity = monthly_price['commodity'].to_list()
 
 st.sidebar.title("Inflation Analyzer")
-st.sidebar.image('inflation.jpg')
+st.sidebar.image('Inflation.jpg')
 st.sidebar.text("-By Aditya Modi")
 
 user_menu = st.sidebar.radio(
