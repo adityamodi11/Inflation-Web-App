@@ -12,9 +12,9 @@ import plotly.graph_objects as go
 import plotly.figure_factory as ff
 import plotly.io as pio
 
-monthly_price = pd.read_csv('monthly_price.csv')
-state = monthly_price['state'].to_list()
-commodity = monthly_price['commodity'].to_list()
+#monthly_price = pd.read_csv('monthly_price.csv')
+#state = monthly_price['state'].to_list()
+#commodity = monthly_price['commodity'].to_list()
 
 st.sidebar.title("Inflation Analyzer")
 st.sidebar.image('inflation.jpg')
